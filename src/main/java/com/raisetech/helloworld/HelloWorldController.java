@@ -14,4 +14,9 @@ public class HelloWorldController {
     public String konnnitiwa(){
         return "こんにちは";
     }
+
+    @GetMapping("/yoru")
+    public String oyasumi(){
+        return "おやすみ";
+    }
 }
