@@ -9,4 +9,9 @@ public class HelloWorldController {
     public String ohayou(){
         return "おはよう";
     }
+
+    @GetMapping("/gogo")
+    public String konnnitiwa(){
+        return "こんにちは";
+    }
 }
